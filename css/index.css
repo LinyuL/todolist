@@ -1,0 +1,143 @@
+body,ul,li,h3{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+*{
+	box-sizing:border-box;
+	font-family: "微软雅黑";
+	outline: none;
+}
+a{
+	text-decoration: none;
+}
+body,html{
+	width:100%;
+}
+body{
+	text-align: center;
+	background: url(../images/43.jpg);
+	background-size: cover;
+}
+nav{
+	height:40px;
+	background: #323232;
+	text-align: center;
+}
+.nav-list{
+	width:700px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.nav-list input[type=text]{
+	width:400px;
+	height:30px;
+	float: left;
+	border-radius: 5px;
+	border: none;
+	margin: 5px 0;
+	padding-left: 13px;
+}
+.nav-list input[type=button]{
+	width:120px;
+	height:30px;
+	margin: 5px 0 5px 30px;
+	border-radius: 5px ;
+	float: left;
+	border: none;
+	background:#27C603;
+	color:#fff;
+	opacity: 1;
+}
+.nav-list input[type=button]:active{
+	opacity: .7
+}
+section{
+	width:700px;
+	margin: 20px auto;
+}
+header{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+}
+header h3{
+	float: left;
+	font-size: 16px;
+	height: 100%;
+	color:#fff;
+}
+.num{
+	float: right;
+	width: 30px;
+    height: 25px;
+    margin: 8px;
+	line-height: 25px;
+	background: #27C603;
+	color:#fff;
+	border-radius: 5px;
+}
+.list{
+	box-sizing: border-box;
+    width: 100%;
+}
+.list li{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+    border-left: 6px solid #27C603;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-bottom: 2px;
+    background: #fff;
+    border-radius: 5px;
+}
+.list input[type=checkbox]{
+	float: left;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+.list input[type=button]{
+	float: left;
+	width: 30px;
+	height:30px;
+	margin: 5px;
+	border: none;
+	border-radius: 5px;
+	color:#fff;
+	background: #F0292C;
+	line-height: 26px;
+	font-size: 18px;
+}
+.list div{
+	float: left;
+	width:600px;
+	height:30px;
+	line-height: 30px;
+	margin: 5px 0;
+	outline:none;
+}
+.delall{
+	width:120px;
+	height:30px;
+	text-align: center;
+	margin: 5px 0 5px 20px;
+	border-radius: 5px;
+	border:none;
+	background: #F0292C;
+	color:#fff;
+}
+.delall:active{
+	opacity: .7;
+}
+
+
+
+
+
+
+
+
+
